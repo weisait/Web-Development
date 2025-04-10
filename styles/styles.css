@@ -1,0 +1,88 @@
+.container_a {
+    display: flex;
+    max-width: 750px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+.container_a div {
+    background-color: grey;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.container_b {
+    display: flex;
+    max-width: 750px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 7.5px;
+}
+
+.container_b div {
+    background-color: grey;
+    margin: 7.5px;
+    flex-grow: 1;
+}
+
+.container_c {
+    display: flex;
+    max-width: 750px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 6px;
+}
+
+.item_c1 {
+    background-color: grey;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 6px;
+    flex-grow: 2;
+}
+.item_c2 {
+    background-color: grey;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 6px;
+    flex-grow: 1;
+}
+
+.container_d {
+    display: flex;
+    max-width: 750px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 6px;
+    margin: 0px;
+}
+
+.container_d div {
+    background-color: grey;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 6px 6px 0px 6px;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    max-width: 750px;
+    height: 50px;
+    background-color: lightblue;
+    padding: 6px;
+    margin: 0px;
+}
+
+footer div {
+    background-color: grey;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 0px 6px 6px 6px;
+    flex-grow: 1;
+}
